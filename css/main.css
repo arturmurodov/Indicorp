@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1440px;
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url("../assets/fonts/Montserrat-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Montserrat-ExtraBold';
+    src: url("../assets/fonts/Montserrat-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url("../assets/fonts/Montserrat-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url("../assets/fonts/Montserrat-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url("../assets/fonts/Montserrat-SemiBold.ttf") format("truetype");
+}
+
+header{
+    background-image: url("../assets/images/background.png");
+    height: 793px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    padding: 36px 0 0 195px;
+}
+
+.navbar-brand{
+    font-family: 'Montserrat-Bold',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    letter-spacing: 0.1px;
+
+    /* text-color */
+
+    color: #252B42;
+
+}
+.navbar-nav li a{
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* second-text-color */
+
+    color: #737373;
+    margin-right: 13px;
+}
+
+.d-lg-none .navbar{
+    padding: 36px 39.57px 36px 36px;
+}
+.button__group{
+    margin-right: 33.5px;
+    display: flex;
+    gap: 24px;
+}
+
+.d-lg-none .navbar-nav .nav-item:nth-child(1){
+    padding-top: 88px;
+}
+
+.d-lg-none .navbar-nav a{
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* second-text-color */
+
+    color: #737373;
+    margin-bottom: 22px;
+}
+
+.d-lg-none .navbar{
+    padding: 36px 39.57px 0 36px;
+}
+
+.button__group{
+    margin-right: 33.5px;
+    display: flex;
+    gap: 24px;
+}
+
+.d-lg-none .navbar-nav .nav-item:nth-child(1){
+    padding-top: 88px;
+}
+
+.d-lg-none .navbar-nav a{
+    font-family: 'Montserrat-Regular',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* second-text-color */
+
+    color: #737373;
+    margin-bottom: 22px;
+}
+
+h1{
+    /*width: 509px;*/
+
+
+
+    font-family: 'Montserrat-ExtraBold',sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+    /* or 138% */
+
+    letter-spacing: 0.2px;
+
+    /* text-color */
+
+    color: #252B42;
+    margin-top: 116px;
+    padding-left: 197px;
+}
+
+header article{
+    margin-top: 35px;
+    padding-left: 197px;
+}
+
+header article p{
+    font-family: 'Montserrat-Medium',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    letter-spacing: 0.2px;
+
+    /* second-text-color */
+
+    color: #737373;
+
+    margin-bottom: 19px;
+}
+
+.header__cards{
+    position: absolute;
+    top: 602px;
+    left: 197px;
+}
+
+.header__cards .card{
+    width: 328px;
+    height: 210px;
+
+    background: #FFFFFF;
+    /* SHADOW */
+
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+}
+
+.header__cards .card:hover{
+    background: #00A0C1;
+}
+
+.header__cards .card:hover .blue{
+    display: none;
+}
+
+.header__cards .card:hover h3{
+    color: white;
+}
+
+.header__cards .card:hover p{
+    color: white;
+}
+
+@media (max-width: 767px) {
+    header{
+        background: url("../assets/images/covermb.png");
+        background-size: 100%;
+        height: 1494px;
+    }
+
+    header .navbar{
+        display: none;
+    }
+}
+
+.container{
+    padding-top: 112px;
+}
+.container .cont{
+    text-align: center;
+}
+.container .container__cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.container1{
+    padding-top: 125px;
+}
+.container1 .cont{
+    text-align: center;
+}
